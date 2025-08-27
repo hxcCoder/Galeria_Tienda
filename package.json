@@ -73,6 +73,6 @@
     "typescript": "5.5.4"
   },
   "engines": {
-    "node": ">=18.17.0 <19"
+    "node": "22.x"
   }
 }
