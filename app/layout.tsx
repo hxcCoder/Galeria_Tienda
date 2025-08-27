@@ -1,3 +1,4 @@
+// app/layout.tsx
 import type React from "react"
 import type { Metadata } from "next"
 import { Work_Sans, Open_Sans } from "next/font/google"
@@ -5,7 +6,7 @@ import { CartProvider } from "@/contexts/cart-context"
 import { LanguageProvider } from "@/contexts/language-context"
 import { CartSidebar } from "@/components/store/cart-sidebar"
 import { ErrorBoundary } from "@/components/error-boundary"
-import { useToastProvider } from "@/hooks/use-toast"
+import ToastProvider from "@/components/ToastProvider" // <-- importamos el client component
 import "./globals.css"
 
 const workSans = Work_Sans({
@@ -22,12 +23,9 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   title: "CASA Tejuela - Underground Cultural Gallery",
-  description: "Underground cultural gallery in Puerto Montt, Chile. Alternative art, heritage and culture.",
+  description:
+    "Underground cultural gallery in Puerto Montt, Chile. Alternative art, heritage and culture.",
   generator: "v0.app",
-}
-
-function ToastProvider({ children }: { children: React.ReactNode }) {
-  return useToastProvider({ children })
 }
 
 export default function RootLayout({
