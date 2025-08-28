@@ -1,26 +1,17 @@
 CASA Tejuela - Galería Cultural & Ecommerce
 -
-Una galería cultural moderna con funcionalidades de ecommerce, construida con Next.js 14 y Tailwind CSS. Diseñada para ser fácil de configurar y mantener.
-
-🚀 Inicio Rápido
--
-
-### Instalación
-\`\`\`bash
-# Clonar el proyecto
-git clone [tu-repositorio]
-cd casatejuelav3
-
-# Instalar dependencias
-npm install
-
-# Ejecutar en desarrollo
-npm run dev
-\`\`\`
-
-Visita `http://localhost:3000` para ver el sitio.
-
+Maqueta de paginaweb eecomerce-galeria, configurable y personalizable hecha con Next.js y con backend adaptable.
 ---
+
+🔗 **Demo en Vercel:** [galeria-tienda.vercel.app](https://galeria-tienda.vercel.app)
+---
+
+## ✨ Características
+
+- Página de inicio con galería de productos.  
+- Sección de proyectos y contacto.  
+- Backend básico para manejo de datos.  
+- Deploy en Vercel.  
 
 ✏️ Cómo Editar Contenido
 -
