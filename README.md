@@ -1,8 +1,9 @@
-# CASA Tejuela - Galería Cultural & Ecommerce
-
+CASA Tejuela - Galería Cultural & Ecommerce
+-
 Una galería cultural moderna con funcionalidades de ecommerce, construida con Next.js 14 y Tailwind CSS. Diseñada para ser fácil de configurar y mantener.
 
-## 🚀 Inicio Rápido
+🚀 Inicio Rápido
+-
 
 ### Instalación
 \`\`\`bash
@@ -19,51 +20,10 @@ npm run dev
 
 Visita `http://localhost:3000` para ver el sitio.
 
-## 📁 Estructura del Proyecto
+---
 
-\`\`\`
-casatejuelav3/
-├── app/
-│   ├── layout.tsx          # Layout principal con fuentes y providers
-│   ├── page.tsx            # Página principal con todas las secciones
-│   └── globals.css         # Estilos globales y paleta de colores
-├── components/
-│   ├── layout/
-│   │   ├── navbar.tsx      # Navegación principal
-│   │   └── footer.tsx      # Pie de página
-│   ├── sections/
-│   │   ├── hero.tsx        # Carrusel de imágenes principal
-│   │   ├── about.tsx       # Sección sobre nosotros
-│   │   ├── gallery.tsx     # Galería de arte
-│   │   ├── projects.tsx    # Proyectos culturales
-│   │   ├── contact.tsx     # Formulario de contacto
-│   │   ├── map.tsx         # Mapa de ubicación
-│   │   └── cart.tsx        # Carrito de compras
-│   ├── ui/                 # Componentes de interfaz (shadcn/ui)
-│   └── ...
-├── public/
-│   ├── logo-casa-tejuela.png    # Logo principal
-│   ├── favicon.ico              # Icono del sitio
-│   └── [imágenes-galería]/      # Todas las imágenes del sitio
-└── lib/
-    ├── utils.ts            # Utilidades (función cn)
-    ├── products.ts         # Gestión de productos
-    ├── supabase.ts         # Conexión a Supabase
-    ├── airtable.ts         # Conexión a Airtable
-    └── config.ts           # Configuración general
-\`\`\`
-
-## 🎨 Paleta de Colores
-
-El sitio usa una paleta cálida y terrosa inspirada en tonos naturales:
-
-- **Primario**: `#d84315` (Naranja-rojo cálido)
-- **Secundario**: `#ff8a65` (Coral suave)
-- **Acento**: `#ff7043` (Naranja vibrante)
-- **Fondo**: `#faf8f5` (Blanco cálido)
-- **Texto**: `#5d4037` (Marrón rico)
-
-## ✏️ Cómo Editar Contenido
+✏️ Cómo Editar Contenido
+-
 
 ### 1. Cambiar Textos
 Los textos están directamente en los componentes. Para editarlos:
@@ -195,7 +155,10 @@ const { data, error } = await supabase
   .select('*')
 \`\`\`
 
+---
+
 ## 🛒 Configuración de Ecommerce (Opciones Simples)
+-
 
 ### Opción 1: Google Sheets + PayPal (Más Fácil)
 
@@ -243,7 +206,9 @@ export function PayPalButton({ amount, onSuccess }) {
 }
 \`\`\`
 
+
 ### Opción 2: Airtable (Interfaz Visual)
+
 
 1. **Crea una base en Airtable** con tabla "Productos"
 2. **Usa la API de Airtable**:
