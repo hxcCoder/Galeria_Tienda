@@ -1,4 +1,4 @@
-C<div align="center">
+<div align="center">
   
 🖼️ Galería Tienda | Proyecto E-Commerce Full-Stack
 -
@@ -18,7 +18,9 @@ C<div align="center">
 
 
 ---
+Maqueta de una pagina web ecommerce-galeria hecha con next.js, typescript y backend adaptable, hecha para ser personalizable.
 
+---
 ## ✨ Características
 
 - Página de inicio con galería de productos.  
