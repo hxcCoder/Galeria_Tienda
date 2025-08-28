@@ -14,7 +14,7 @@ C<div align="center">
   [🌐 **Ver Demo en Vivo**](https://galeria-tienda.vercel.app/) • [📂 **Código Fuente**](https://github.com/usuario/galeria-tienda) • [👨‍💻 **Mi Portfolio**](https://github.com/usuario)
 </div>
   
-![Vista previa](captura.png)
+![Vista previa](captura.jpg)
 
 ---
 
