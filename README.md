@@ -1,6 +1,7 @@
 CASA Tejuela - Galería Cultural & Ecommerce
 -
 Maqueta de paginaweb eecomerce-galeria, configurable y personalizable hecha con Next.js y con backend adaptable.
+
 ---
 
 🔗 **Demo en Vercel:** [galeria-tienda.vercel.app](https://galeria-tienda.vercel.app)
