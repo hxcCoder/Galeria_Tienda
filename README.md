@@ -158,7 +158,6 @@ const { data, error } = await supabase
 ---
 
 ## 🛒 Configuración de Ecommerce (Opciones Simples)
--
 
 ### Opción 1: Google Sheets + PayPal (Más Fácil)
 
