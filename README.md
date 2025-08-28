@@ -11,10 +11,11 @@ C<div align="center">
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-Repo-000000?style=for-the-badge&logo=github&logoColor=white)
 
-  [🌐 **Ver Demo en Vivo**](https://galeria-tienda.vercel.app/) • [📂 **Código Fuente**](https://github.com/usuario/galeria-tienda) • [👨‍💻 **Mi Portfolio**](https://github.com/usuario)
+  [🌐 **Ver Demo en Vivo**](https://galeria-tiendav1-8jnpyaql9-benjaminmillalonc-6594s-projects.vercel.app?_vercel_share=aRGwYLA0Bdn1YfE3X7ybCA4tDgGBMsN0) • [📂 **Código Fuente**](https://github.com/HxcCoder/galeria-tienda) • [👨‍💻 **Mi Portfolio**](https://github.com/usuario)
 </div>
   
 ![Vista previa](captura.PNG)
+
 
 ---
 
